@@ -1,30 +1,12 @@
 body {
   margin: 0;
   padding: 0;
-  background: url(images.jpg);
   font-family: monospace; }
 
-#pocetna {
-  width: 100%;
-  height: 400px;
-  margin-left: 0;
-  background: url(coffe1.png) no-repeat; }
-  #pocetna img {
-    margin: 0;
-    width: 100%; }
-  #pocetna h1 {
-    padding: 120px 0 80px;
-    text-align: center;
-    width: 50%;
-    color: black;
-    padding-left: 20px;
-    font-family: Raleway, sans-serif;
-    font-size: 30px;
-    font-weight: 600;
-    text-transform: uppercase; }
+ 
 
 header {
-  background-image: url(images.jpg);
+  background:rgb(153, 51, 51);
   height: 100vh;
   background-size: cover;
   background-position: center;
@@ -59,31 +41,66 @@ header {
   max-width: 1200px;
   margin: auto; }
 
-#intro {
-  padding: 10px;
-  margin: 10px;
-  height: 280px; }
-  #intro img {
-    border-radius: 10px;
-    float: right;
-    margin-top: 100px; }
-  #intro h1 {
+  .dobrodosli .pocetna .display-4 {
+    position:center;
     text-align: center;
-    margin-top: 50px; }
-  #intro button {
-    margin-left: 570px;
-    cursor: pointer;
-    background-color: transparent;
-    border-radius: 10px;
-    font-size: 15px; }
+    margin:20px;
+  }
 
-#poslednja {
-  background: url(images.jpg);
-  text-align: center;
-  height: 200px; }
-  #poslednja h1 {
-    padding-top: 15px; }
-  #poslednja img {
-    width: 35px; }
+  .shop {
+    margin-top: 3rem; }
+    .shop .item {
+      margin-bottom: 2rem; }
+      .shop .item .item-wrapper {
+        border: 1px solid #EDEDED;
+        padding: 0.5rem;
+        border-radius: 5px;
+        position: relative; }
+        .shop .item .item-wrapper .title {
+          color: #555; }
+        .shop .item .item-wrapper .description {
+          margin-top: 1rem;
+    
+          overflow: hidden;
+          }
+          .shop .proizvod .display-4 {
+            position:center;
+            text-align: center;
+            margin:50px;
+          }
+           
+        .shop .item .item-wrapper .price {
+          border-top: 1px solid #EDEDED;
+          border-bottom: 1px solid #EDEDED;
+          padding: 0.5rem 0; }
+          .shop .item .item-wrapper .price i {
+            margin-right: 0.5rem; }
+        .shop .item .item-wrapper .btn {
+          width: 50%; }
+
+          
+          .shop .item .item-wrapper .btn i {
+            margin-right: 0.5rem;
+           }
+           
+
+
+
+    .single-shop {
+      margin-top: 3rem; }
+      .single-shop .details .title {
+        color: #555; }
+      .single-shop .details .price i {
+        margin-right: 0.5rem; }
+      .single-shop .details .btn {
+        width: 50%; }
+        .single-shop .details .btn i {
+          margin-right: 0.5rem; }
+
+          #map {
+            width: 100%;
+            height: 400px;
+            background-color: grey;
+          }
 
 /*# sourceMappingURL=main.css.map */
